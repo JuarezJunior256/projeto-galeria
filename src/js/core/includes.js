@@ -19,7 +19,7 @@ function loadIncludes(parent) {
                 $(e).removeAttr('wm-include')
 
                 loadHtmlSuccessCallbacks.forEach(
-                    callback => callback(data))
+                   callback => callback(data))
                 loadIncludes(e)
             }
         })
